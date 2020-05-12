@@ -1,0 +1,200 @@
+/* Corpo pagina */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Intestazione */
+
+header {
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  background-image: url(../img/profilo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.8;
+  border: 4px solid #501f1f;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e8af01;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+/* Barra di navigazione */
+
+#menu-container {
+  margin-top: 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7b682f;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e8af01;
+}
+
+/* Sezione principale */
+
+body {
+  background-image: url(../img/sfondo.jpg) ;
+  background-size: cover;
+}
+
+.sezioneprima {
+  margin: 15px 15px;
+}
+
+.sezioneprima::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sottosezioni (principale) */
+
+.sinistra, .destra {
+  float: left;
+  width: 25%;
+}
+
+.centro {
+  float: left;
+  width: 40%;
+}
+
+/* Sottosezione sinistra */
+
+img {
+  width: 12%;
+}
+
+#titlesx {
+  display: inline;
+  color: #e8af01;
+  text-shadow: 1px 1px 1px black;
+}
+
+#titlefeed, #titleprincipal, .titledx {
+  margin-bottom: 3%;
+}
+
+.section {
+  display: block;
+  color: #6d3b29;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 2%;
+}
+
+.section:hover {
+  text-decoration: underline;
+  color: #e24006;
+}
+
+.sinistra {
+  border: 2px solid #501f1f;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(125, 103, 103, 0.3);
+}
+
+/* Sottosezione destra */
+
+.destra-uno, .destra-due, .destra-tre {
+  border: 2px solid #501f1f;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(125, 103, 103, 0.3);
+}
+
+.destra-uno, .destra-due {
+  margin-bottom: 5%;
+}
+
+.titledx {
+  color: #e8af01;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+
+/* Sottosezione centrale */
+
+.centro {
+  margin: 0 5%;
+  border: 2px solid #501f1f;
+  border-radius: 5px;
+  padding: 1%;
+  text-align: center;
+  background-color: rgba(125, 103, 103, 0.3);
+}
+
+#titleprincipal {
+  color: #e8af01;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  border-radius: 2px;
+  border: 2px solid #501f1f;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(125, 103, 103, 0.3);
+}
+
+#footertitle {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #501f1f;
+}
+
+.social {
+  margin: 0 20px;
+  width: 40px;
+}
+
+.socialink {
+  display: inline;
+  text-decoration: none;
+}
